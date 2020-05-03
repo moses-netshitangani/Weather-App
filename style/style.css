@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+body{
+    height: 100vh;
+    font-size: 1.5em;
+    background: linear-gradient(#ff9966,#ff5e62);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading{
+    position: absolute;
+    top: 5%;
+    border-bottom: 3px solid white;
+}
+
+.temp-display{
+    display: flex;
+    justify-content: center;
+}
