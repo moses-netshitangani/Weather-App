@@ -37,7 +37,7 @@ let change = (t,w) => {
     temperature = t;
     temperature = Math.round(temperature - 273.15);
     temp_heading.innerHTML = temperature;
-    type_heading.innerHTML = w[0].main;
+    type_heading.innerHTML = w[0].description;
 }
 
 // Switching between Fahrenheit and degrees Celsius
